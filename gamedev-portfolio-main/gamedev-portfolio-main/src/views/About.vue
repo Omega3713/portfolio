@@ -4,17 +4,18 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Laurence Dunbar</strong>, a recent computer science graduate and aspiring game developer.<br/>
+        I'm a passionate creative and tech enthusiast who loves to build things that entertain and inspire people. <br/>
+        I have a strong background in programming, game design, and software development, and I'm always eager to learn new skills and technologies.
       </div>
 
       <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game developer or software engineer. You can reach me at <a href="mailto:laurence.dunbar@outlook.com">laurence.dunbar@outlook.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar of Laurence" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -24,7 +25,7 @@
 
 <style scoped>
 .paragraph {
-  max-width: 700px;
+  max-width: 850px;
   margin-bottom: 20px;
 }
 
