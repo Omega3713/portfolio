@@ -1,106 +1,93 @@
 <template>
   <div>
-    <h1>Resume</h1>
+    <h1>CV</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>An Aspiring Game Developer</strong>, and a recent graduate of Queen Mary University of London with a first class degree in Computer Science.
+      <br />I have a passion for creating, whether it's through programming, game design, or other creative outlets, and I love learning new skills and technologies.
+      <br />As I find my place in the industry, I am continuously honing my skills through personal projects and collaborations, many of which are showcased in my portfolio.
+      <br />I am currently seeking opportunities in game development or software engineering, where I can contribute my skills and passion for creating engaging experiences.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />Feel free to <router-link to="/contact">contact me</router-link> if you have any questions or if you'd like to discuss potential opportunities. 
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />My other interests include playing and writing music and martial arts.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/Laurence-Dunbar-CV-(2025).pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Photo of Laurence Dunbar" />
     </div>
 
     <div style="clear:both"></div>
 
     <div class="full-content">
-      <h2>Work experience</h2>
+      <h2>Experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>President - Queen Mary Video and Card Gaming Society</h3>
+      <h4>Jun 2023 - Jun 2025</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <ul>
+        <li>Organised events for 50+ attendees, including large tournaments and inter university competitions</li>
+        <li>Managed sponsorship communications, representing the society with professionalism</li>
+        <li>Led committee meetings, developed term strategies, and ensured team cohesion</li>
+      </ul>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>President - Queen Mary Kendo Club</h3>
+      <h4>Jun 2024 - Jun 2025</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <ul>
+        <li>Coordinated weekly training and national tournament participation</li>
+        <li>Managed a society budget of over £1,000, delegating responsibilities effectively</li>
+        <li>Represented the society at university fairs and networking events</li>
+      </ul>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Welfare Representative - Queen Mary Game Development Society</h3>
+      <h4>Jun 2024 - Jun 2025</h4>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <ul>
+        <li>Ensured a safe, inclusive atmosphere during events for 30+ members</li>
+        <li>Liaised with other societies and organisations to foster collaboration</li>
+        <li>Point of contact for welfare related issues and concerns</li>
+      </ul>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Programming Languages</h3>
+        <SkillRate name="C#" :rate="4" />
+        <SkillRate name="Python" :rate="5" />
+        <SkillRate name="Java" :rate="5" />
+        <SkillRate name="JavaScript" :rate="5" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Soft Skills</h3>
+        <SkillRate name="Leadership" :rate="5" />
+        <SkillRate name="Teamwork" :rate="5" />
+        <SkillRate name="Communication" :rate="5" />
+        <SkillRate name="Problem-solving" :rate="5" />
+        <SkillRate name="Adaptability" :rate="5" />
+        <SkillRate name="Creativity" :rate="5" />
+        
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Queen Mary University of London (Sep 2022 - Jul 2025)</h3>
+      <h4>BSc Computer Science (First Class)</h4>
+      <div>Tackled various topics including Machine Learning, Software Development and Game Development</div>
 
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>Greenford High School (Sep 2015 - Jun 2022)</h3>
+      <h4>GCSE and A Level</h4>
+      <div>10x GCSEs, achieving grades of 7-9 including Computer Science(9), Maths (8), Physics (8), English Literature and English Language(9)</div>
+      <div>A Level Maths (A) A Level Computer Science (A) A Level Further Maths (B)</div>
 
 
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
-      </div>
     </div>
   </div>
 </template>

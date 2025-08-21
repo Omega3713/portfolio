@@ -1,31 +1,33 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
+    new ProjectData("project-6", "SwiftSheets", "img/projects/Swiftsheets-screenshot.jpg", `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
+      <strong>SwiftSheets</strong> is a web-based application designed to streamline the process of creating and managing employee timesheets.
+      <br/>It was developed for <strong>FDM</strong> alongside 4 other students to address the common challenges faced by employees and managers in tracking work hours and project contributions.
+      <br/>I played a key role in the development of this application, focusing on the main backend functionalities and database management.
             </div>
             <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
+              <img class="pc-screenshot" src="img/projects/Swiftsheets-screenshot.jpg" alt="SwiftSheets Screenshot" />
+              <img class="pc-screenshot" src="img/projects/Swiftsheets-screenshot-2.jpg" alt="SwiftSheets Screenshot" /> 
+            </div>
+
+          <div class="paragraph center">
+              <a href="https://github.com/ileniadigital/SwiftSheets" target="_blank"><img src="img/projects/github-logo.png" alt="GitHub badge" /></a>
           </div>
 
           <div class="paragraph">
             Main features :
             <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
+            <li>Approval/Rejection of timesheets</li>
+            <li>Tracking of work hours</li>
+            <li>System Admin account management</li>
+            <li>Robust Login System</li>
+            <li>Ability to change account details</li>
             </ul>
         </div>
 
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
-    `, "#c10606", false, true),
+    `, "#c10606", false, true)/*,
     new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
                 <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -102,5 +104,5 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
+            </div>`),*/
 ];

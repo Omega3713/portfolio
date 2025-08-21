@@ -9,7 +9,7 @@
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px;">
-      You can find a few of my older games on <a target="_blank" href="https://itch.io">itch.io</a>
+      You can find a few of my older games on <a target="_blank" href="https://omega3713.itch.io">itch.io</a>
     </div>
   </div>
 </template>
